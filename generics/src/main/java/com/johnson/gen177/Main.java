@@ -1,4 +1,4 @@
-package com.johnson.gen1;
+package com.johnson.gen177;
 
 public class Main {
     public static void main(String[] args) {

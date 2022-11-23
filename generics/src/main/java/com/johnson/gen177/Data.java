@@ -1,4 +1,4 @@
-package com.johnson.gen1;
+package com.johnson.gen177;
 
 /**
  * T es un placeholder que acepta cualquier tipo

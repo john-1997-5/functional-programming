@@ -1,4 +1,4 @@
-package com.johnson.gen2;
+package com.johnson.gen178;
 
 public interface IData<T> {
     T getData();
