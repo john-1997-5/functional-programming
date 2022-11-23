@@ -1,7 +1,6 @@
 package com.johnson.gen185;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * Clase genérica que ordena valores de subtipos (subclases) de Number.
