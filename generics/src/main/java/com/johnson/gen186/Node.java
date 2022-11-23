@@ -2,10 +2,11 @@ package com.johnson.gen186;
 
 public class Node<T> {
     private T data;
-    // upper bounded wildcard
-    private Node<? extends Number> next;
+    // lower bounded wildcard
+    // parameters of type or supertype of Integer
+    private Node<? super Integer> next;
 
-    public Node(T data, Node<? extends Number> next) {
+    public Node(T data, Node<? super Integer> next) {
         this.data = data;
         this.next = next;
     }
@@ -18,11 +19,11 @@ public class Node<T> {
         this.data = data;
     }
 
-    public Node<? extends Number> getNext() {
+    public Node<? super Integer> getNext() {
         return next;
     }
 
-    public void setNext(Node<? extends Number> next) {
+    public void setNext(Node<? super Integer> next) {
         this.next = next;
     }
 
