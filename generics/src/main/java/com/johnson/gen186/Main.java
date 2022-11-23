@@ -15,15 +15,8 @@ public class Main {
         currentDoubleNode.setNext(nextIntNode);
         System.out.println("Double w/ Integer links -> " + currentDoubleNode);
 
-        // nodos de Number
-        Node<Number> nextNumberNode = new Node<>(55, null);
-        Node<Number> currentNumberNode = new Node<>(10.4, nextNumberNode );
-        System.out.println("Number links -> " + currentNumberNode);
-        // linkeo con nodos de otros tipos
-        currentNumberNode.setNext(nextIntNode);
-        System.out.println("Number w/ Integer links -> " + currentNumberNode);
-        currentNumberNode.setNext(nextDoubleNode);
-        System.out.println("Number w/ Double links -> " + currentNumberNode);
-        
+        // nodo de String
+        Node<String> nextStringNode = new Node<>("hola", null);
+        // currentDoubleNode.setNext(nextStringNode);
     }
 }
