@@ -1,16 +1,19 @@
 package com.johnson.gen1;
 
-public class Data {
-    private Object data;
-    public Data(Object data) {
+/**
+ * T es un placeholder que acepta cualquier tipo
+ */
+public class Data<T> {
+    private T data;
+    public Data(T data) {
         this.data = data;
     }
 
-    public Object getData() {
+    public T getData() {
         return data;
     }
 
-    public void setData(Object data) {
+    public void setData(T data) {
         this.data = data;
     }
 
