@@ -19,7 +19,7 @@ public class Main {
         List<? extends Number> l4 = new ArrayList<Number>();
         //l3.add(a);
         //l4.add(b);
-        
+
         // con el lower bound de Integer es posible añadir elementos a la lista pero solo con integers
         List<? super Integer> l5 = new ArrayList<Integer>();
         List<? super Integer> l6 = new ArrayList<Number>();
